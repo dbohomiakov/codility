@@ -1,5 +1,8 @@
+# Main idea of solution is the thing that there are only two possible
+# dimensions of slice with min average sum - 2 or 3
+
+
 def solution(A):
-    # write your code in Python 3.6
     length = len(A)
     min_avg = (A[0] + A[1]) / 2.0
     result = 0
